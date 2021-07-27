@@ -1,0 +1,22 @@
+{
+  "name": "bookshelf_api",
+  "version": "1.0.0",
+  "description": "Submission Dicoding",
+  "main": "Server.js",
+  "scripts": {
+    "start": "set NODE_ENV=production && nodemon ./src/Server.js",
+    "start-dev": "nodemon ./src/Server.js"
+  },
+  "author": "Rakha Rozaqtama",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5",
+    "nanoid": "^3.1.23"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "nodemon": "^2.0.12"
+  }
+}
